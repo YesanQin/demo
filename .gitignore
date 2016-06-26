@@ -1,0 +1,21 @@
+### Java ###
+*.class
+
+# Package Files #
+*.war
+*.ear
+
+*.iml
+
+## Directory-based project format:
+/.idea/
+/.svn/
+/test/
+/target/
+*.iml
+*.log
+*.log.*
+/out/
+/.settings/
+.project
+.classpath
