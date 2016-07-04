@@ -1,10 +1,9 @@
-### Java ###
+###java###
 *.class
 
 # Package Files #
 *.war
 *.ear
-
 *.iml
 
 ## Directory-based project format:
@@ -12,7 +11,6 @@
 /.svn/
 /test/
 /target/
-*.iml
 *.log
 *.log.*
 /out/
