@@ -37,8 +37,5 @@ public class ListDemo3 {
 		subList.clear();
 		System.out.println(list);
 		
-		
-		
-		
 	}
 }
