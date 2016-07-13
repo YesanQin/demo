@@ -1,21 +1,17 @@
 package cn.qinys.test;
-
-/**
- * Hello world!
- *
- */
 class A {
 	public A() {
 		this.print();
 	}
-
 	public void print() {
 	}
 }
 
 class B extends A {
-	int x = 10;
-
+	int x = 1000;
+	public B(){
+		System.out.println("x = " + x);
+	}
 	public B(int x) {
 		this.x = x;
 	}
@@ -24,9 +20,11 @@ class B extends A {
 		System.out.println("x = " + x);
 	}
 }
-
 public class App {
 	public static void main(String args[]) {
+		B b = new B();
+		b.print();
+		System.out.println();
 		new B(100);
 	}
 }
