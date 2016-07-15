@@ -14,7 +14,8 @@
 *.log
 *.log.*
 /out/
-/.settings/
+/.settings
 .project
 .classpath
+.project
 

@@ -12,6 +12,7 @@
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <springframework.version>3.2.8.RELEASE</springframework.version>
   </properties>
 
   <dependencies>
@@ -51,5 +52,13 @@
 	    <version>10.2.0.4.0</version>
 	</dependency>
 	<!-- oracle end -->
+	
+	<!-- spring start -->
+	<dependency>
+         <groupId>org.springframework</groupId>
+         <artifactId>spring-context</artifactId>
+         <version>${springframework.version}</version>
+    </dependency>
+    <!-- spring end -->
   </dependencies>
 </project>
