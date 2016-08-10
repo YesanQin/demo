@@ -1,4 +1,8 @@
 package cn.qinys.test;
+/**
+ * @qinys zxqinlang@126.com
+ * @history 2016年8月10日 下午9:00:14
+ */
 class A {
 	public A() {
 		this.print();
